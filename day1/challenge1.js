@@ -18,6 +18,6 @@ const calculateSums = data => {
   return n1 * n2
 }
 
-console.log(calculateSums(data))
+console.log('Day 1 - challenge 1: ' + calculateSums(data))
 
 module.exports = calculateSums

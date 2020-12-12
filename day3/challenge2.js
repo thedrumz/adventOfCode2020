@@ -16,6 +16,6 @@ const solveChallenge2 = data => {
   return count1 * count2 * count3 * count4 * count5
 }
 
-console.log(solveChallenge2(data))
+console.log('Day 3 - challenge 2: ' + solveChallenge2(data))
 
 module.exports = { solveChallenge2 }

@@ -28,6 +28,6 @@ const countHashtag = array => array.filter(el => el === '#').length
 
 const solveChallenge1 = data => countHashtag(findPath(data))
 
-console.log(solveChallenge1(data))
+console.log('Day 3 - challenge 1: ' + solveChallenge1(data))
 
 module.exports = { moveRight, findPath, countHashtag, solveChallenge1 }

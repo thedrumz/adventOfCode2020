@@ -20,6 +20,6 @@ const isInOnePosition = (string, letter, positions) => {
   return count === 1
 }
 
-console.log(finder(data))
+console.log('Day 2 - challenge 2: ' + finder(data))
 
 module.exports = { formatter, isInOnePosition, finder }

@@ -24,6 +24,6 @@ const isNumberInBetween = (number, min, max) => {
   return min <= number && number <= max
 }
 
-console.log(finder(data))
+console.log('Day 2 - challenge 1: ' + finder(data))
 
 module.exports = { formatter, countLetter, isNumberInBetween, finder }
