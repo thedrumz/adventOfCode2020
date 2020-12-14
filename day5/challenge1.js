@@ -39,6 +39,6 @@ const solveChallenge1 = data => {
   return Math.max(...seatIds)
 }
 
-console.log(solveChallenge1(data))
+console.log('Day 5 - challenge 1: ' + solveChallenge1(data))
 
 module.exports = { getLowerHalf, getUpperHalf, findRowFromInstructions, findColumnFromInstructions, getSeatId, solveChallenge1 }

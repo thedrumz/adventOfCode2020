@@ -19,4 +19,4 @@ const solveChallenge2 = data => {
   return finded
 }
 
-console.log(solveChallenge2(data))
+console.log('Day 5 - challenge 1: ' + solveChallenge2(data))
